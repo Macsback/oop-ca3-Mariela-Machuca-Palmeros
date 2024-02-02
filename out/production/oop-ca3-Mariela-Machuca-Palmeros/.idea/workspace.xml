@@ -34,9 +34,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Q1.executor": "Run",
+    "Application.Q4.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "31-jan-2024",
+    "git-widget-placeholder": "02-01-2024",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -66,7 +67,8 @@
       <workItem from="1706087408351" duration="3752000" />
       <workItem from="1706260706102" duration="4223000" />
       <workItem from="1706265219920" duration="610000" />
-      <workItem from="1706714640875" duration="3565000" />
+      <workItem from="1706714640875" duration="4086000" />
+      <workItem from="1706865295146" duration="1849000" />
     </task>
     <servers />
   </component>
