@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a00123d0-55e6-4695-a3e2-e058c5c9d448" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Tags 2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tags 3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tags_valid.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q4.java" beforeDir="false" afterPath="$PROJECT_DIR$/Q4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/oop-ca3-Mariela-Machuca-Palmeros/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oop-ca3-Mariela-Machuca-Palmeros/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/oop-ca3-Mariela-Machuca-Palmeros/Q4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oop-ca3-Mariela-Machuca-Palmeros/Q4.class" afterDir="false" />
-    </list>
+    <list default="true" id="a00123d0-55e6-4695-a3e2-e058c5c9d448" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,7 +69,7 @@
       <workItem from="1706260706102" duration="4223000" />
       <workItem from="1706265219920" duration="610000" />
       <workItem from="1706714640875" duration="4086000" />
-      <workItem from="1706865295146" duration="4817000" />
+      <workItem from="1706865295146" duration="5416000" />
     </task>
     <servers />
   </component>
