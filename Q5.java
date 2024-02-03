@@ -8,7 +8,7 @@ public class Q5 {
     public static void main(String[] args) {
 //        System.out.println("Please introduce your command with the following format");
 //        System.out.println("Command + flight Symbol (only if required)");
-
+        System.out.println("The Runway is ready for operation");
         Scanner kbrd = new Scanner(System.in);
         String command = "";
         String flightCode = "";
@@ -17,7 +17,7 @@ public class Q5 {
 
         do {
 
-             command = kbrd.next().toLowerCase(Locale.ROOT);
+             command = kbrd.nextLine().toLowerCase(Locale.ROOT);
             
             if (command.contains("takeoff")) {
                 flightCode = getFlightNo(8, command);
@@ -32,21 +32,29 @@ public class Q5 {
 
             } else if (command.contains("next")) {
                 String nextFlight = " ";
-                if(landings.isEmpty()){
+                if(landings.isEmpty() && !takeoffs.isEmpty()){
                     nextFlight = takeoffs.remove();
                     System.out.println("Flight " + nextFlight + " has taken off");
                 }
-                else {
+
+                else if (!landings.isEmpty()) {
                     nextFlight = landings.remove();
                     System.out.println("Flight " + nextFlight + " has landed");
                 }
+                else{
+                    System.out.println("No Flights are queued");
+                }
             }
         } while(!command.contains("quit"));
+
+        System.out.println("The Runway has closed for Operation");
 
     }
 
     public static String getFlightNo(int index, String Command){
         String flightCode = Command.substring(index);
+        flightCode = flightCode.toUpperCase();
+
         return flightCode;
     }
 //    public static void land(String command, Queue landings) {
