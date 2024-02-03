@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a00123d0-55e6-4695-a3e2-e058c5c9d448" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q4.java" beforeDir="false" afterPath="$PROJECT_DIR$/Q4.java" afterDir="false" />
-    </list>
+    <list default="true" id="a00123d0-55e6-4695-a3e2-e058c5c9d448" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,12 +24,16 @@
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2bMzHCgiyV1gedWNN5WxZ5pgbpr" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.Q1.executor": "Run",
     "Application.Q4.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -68,11 +69,14 @@
       <workItem from="1706260706102" duration="4223000" />
       <workItem from="1706265219920" duration="610000" />
       <workItem from="1706714640875" duration="4086000" />
-      <workItem from="1706865295146" duration="1849000" />
+      <workItem from="1706865295146" duration="5416000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
