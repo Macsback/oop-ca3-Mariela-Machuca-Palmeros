@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a00123d0-55e6-4695-a3e2-e058c5c9d448" name="Changes" comment="" />
+    <list default="true" id="a00123d0-55e6-4695-a3e2-e058c5c9d448" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Q8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,11 +38,12 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.Q1.executor": "Run",
+    "Application.Q2.executor": "Run",
     "Application.Q4.executor": "Run",
     "Application.Q5.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "02-01-2024",
+    "git-widget-placeholder": "05-02-2024",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -72,6 +76,8 @@
       <workItem from="1706714640875" duration="4086000" />
       <workItem from="1706865295146" duration="5416000" />
       <workItem from="1706977031961" duration="4739000" />
+      <workItem from="1706982361287" duration="1564000" />
+      <workItem from="1707167076381" duration="1017000" />
     </task>
     <servers />
   </component>
