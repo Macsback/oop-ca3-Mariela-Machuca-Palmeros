@@ -14,7 +14,8 @@ public class Q8 {
         Scanner kbrd = new Scanner(System.in);
         String function = "";
 
-
+        double num1 = 0;
+        double num2 = 0;
 
         System.out.println("Input one Operator or Number by line, Q to quit, and = to calculate");
 
@@ -37,12 +38,27 @@ public class Q8 {
 
             else {
 //                    System.out.println("This is not an integer " + function);
-                operators.push(function);
-                System.out.println(operators.peek());
+
+                if(function.equals("(")){
+                    operators.push(function);
+                }
+//                operators.push(function);
+//                System.out.println(operators.peek());
+                else if (function.equals("+") || function.equals("-")) {
+                    if (numbers.size()>1 && !operators.isEmpty()) {
+                        if (operators.peek().equals("*") || operators.peek().equals("/")) {
+                            String operator;
+                            num2 = numbers.pop();
+                            num1 = numbers.pop();
+
+                        }
+                    }
+                }
             }
 
+            double result = 0;
             System.out.println("Calculating");
-            double result = calculate(numbers, operators);
+//            double result = calculate(numbers, operators);
             System.out.println(result);
 
 
@@ -67,42 +83,88 @@ public class Q8 {
 //
 //        while(function.contains("done"));
     }
-
-    public static double calculate(Stack<Double> numbers, Stack<String> operators) {
-
-
-        double num1 = 0;
-        double num2 = 0;
-        double result = 0;
-        System.out.println(numbers);
-        if (numbers.size()>1 && !operators.isEmpty()){
-            String operator = operators.pop();
-            num2 = numbers.pop();
-            num1 = numbers.pop();
-            switch (operator){
-                case "+":
-
-                    result = num1 + num2;
-
-                    break;
-
-                case "-":
-                    result = num1 - num2;
-                    break;
-
-                case "/":
-                    result = num1/num2;
-                    break;
-
-                case "*":
-                    result = num1*num2;
-
-            }
-        }
-        if(result!=0){
-        numbers.push(result);}
-        return result;
-    }
+//
+//    public static double calculate(Stack<Double> numbers, Stack<String> operators) {
+//        Stack<String> tempOperators = new Stack<String>();
+//        String operator;
+//
+//        double num1 = 0;
+//        double num2 = 0;
+//        double result = 0;
+//        System.out.println(numbers);
+//        if (numbers.size()>1 && !operators.isEmpty()){
+//             operator = operators.peek();
+//
+//            if(operator.equals("/") || operator.equals("*")){
+//                num2 = numbers.pop();
+//                num1 = numbers.pop();
+//                operator = operators.pop();
+//
+//                switch (operator){
+//
+//                    case "/":
+//                        result = num1/num2;
+//                        break;
+//
+//                    case "*":
+//                        result = num1*num2;
+//                        break;
+//
+//                }
+//            } else if (operator.equals("+") || operator.equals("-")) {
+//                tempOperators.push(operators.pop());
+//            }
+//
+// /*           switch (operator){
+//                case "+":
+//
+//                    result = num1 + num2;
+//
+//                    break;
+//
+//                case "-":
+//                    result = num1 - num2;
+//                    break;
+//
+//                case "/":
+//                    result = num1/num2;
+//                    break;
+//
+//                case "*":
+//                    result = num1*num2;
+//                    break;
+//
+//            }*/
+//        } else if (numbers.size()>1 && operators.isEmpty()) {
+//            operator = tempOperators.pop();
+//            num2 = numbers.pop();
+//            num1 = numbers.pop();
+//
+//            switch (operator) {
+//                case "+":
+//
+//                    result = num1 + num2;
+//
+//                    break;
+//
+//                case "-":
+//                    result = num1 - num2;
+//                    break;
+//
+//                case "/":
+//                    result = num1 / num2;
+//                    break;
+//
+//                case "*":
+//                    result = num1 * num2;
+//                    break;
+//
+//            }
+//        }
+//        if(result!=0){
+//        numbers.push(result);}
+//        return result;
+//    }
 
 
 // TODO Make Scanner read one by one the parts of the operation !!
