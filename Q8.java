@@ -35,18 +35,16 @@ public class Q8 {
             }
 
 
-
-            else if(function.equals("=")){
-                System.out.println("Calculating");
-               double result = calculate(numbers, operators);
-                System.out.println(result);
-            }
-
             else {
 //                    System.out.println("This is not an integer " + function);
                 operators.push(function);
                 System.out.println(operators.peek());
             }
+
+            System.out.println("Calculating");
+            double result = calculate(numbers, operators);
+            System.out.println(result);
+
 
         }
 
@@ -76,18 +74,33 @@ public class Q8 {
         double num1 = 0;
         double num2 = 0;
         double result = 0;
+        System.out.println(numbers);
         if (numbers.size()>1 && !operators.isEmpty()){
             String operator = operators.pop();
+            num2 = numbers.pop();
+            num1 = numbers.pop();
             switch (operator){
                 case "+":
-                    num1 = numbers.pop();
-                    num2 = numbers.pop();
+
                     result = num1 + num2;
 
                     break;
+
+                case "-":
+                    result = num1 - num2;
+                    break;
+
+                case "/":
+                    result = num1/num2;
+                    break;
+
+                case "*":
+                    result = num1*num2;
+
             }
         }
-
+        if(result!=0){
+        numbers.push(result);}
         return result;
     }
 
