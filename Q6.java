@@ -42,19 +42,19 @@ public class Q6 {
         Block stash = bag.peek();
         int avaShares = stash.getQuantity();
         double boughtPrice = 0 ;
-
+        while(quantity > 0 && !bag.isEmpty())
         if(avaShares < quantity){
-            while(avaShares < quantity && !bag.isEmpty()){
+            //while(avaShares < quantity && !bag.isEmpty()){
                  boughtPrice = stash.getPrice(); ;
             gain += (price - boughtPrice) * avaShares;;
             quantity = quantity-avaShares;
             bag.remove();
             stash = bag.peek();
             avaShares = stash.getQuantity();
-            }
-            gain += (price - boughtPrice) * avaShares;;
-            stash.setQuantity(avaShares - quantity);
-        }
+          //  }
+//            gain += (price - boughtPrice) * quantity;;
+//            stash.setQuantity(avaShares - quantity);
+       }
         else if(avaShares == quantity){
             boughtPrice = stash.getPrice(); ;
             gain += (price - boughtPrice) * avaShares;
@@ -62,7 +62,7 @@ public class Q6 {
         }
         else if(avaShares> quantity){
             boughtPrice = stash.getPrice(); ;
-            gain += (price - boughtPrice) * avaShares;
+            gain += (price - boughtPrice) * quantity;
             stash.setQuantity(avaShares - quantity);
             quantity = 0 ;
         }
