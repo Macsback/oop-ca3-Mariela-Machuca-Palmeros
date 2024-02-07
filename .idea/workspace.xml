@@ -7,7 +7,6 @@
     <list default="true" id="a00123d0-55e6-4695-a3e2-e058c5c9d448" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/Q3.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Q7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Q8_AICode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Q8.java" beforeDir="false" afterPath="$PROJECT_DIR$/Q8.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/oop-ca3-Mariela-Machuca-Palmeros/Q8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oop-ca3-Mariela-Machuca-Palmeros/Q8.class" afterDir="false" />
@@ -92,7 +91,7 @@
       <workItem from="1706991640207" duration="1411000" />
       <workItem from="1707215383200" duration="9147000" />
       <workItem from="1707297100210" duration="598000" />
-      <workItem from="1707308173926" duration="5280000" />
+      <workItem from="1707308173926" duration="5534000" />
     </task>
     <servers />
   </component>
