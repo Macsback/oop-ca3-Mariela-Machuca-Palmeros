@@ -16,12 +16,10 @@ public class Q6 {
         do{
             System.out.println("What do you want to do?: Buy *Quantity* *Price*, Sell *Quantity* *Price*, quit");
             command = kbrd.next().toLowerCase(Locale.ROOT);
+            if(!command.equalsIgnoreCase("quit")){
             quantity = kbrd.nextInt();
-            price = kbrd.nextDouble();
+            price = kbrd.nextDouble();}
             //System.out.println(command);
-
-
-
 
             if(command.equalsIgnoreCase("buy")){
                 Block shares = new Block(quantity, price);
@@ -29,8 +27,9 @@ public class Q6 {
                 //  System.out.println("Block: " + shares.getQuantity() + " " + shares.getPrice());
             } else if (command.equalsIgnoreCase("sell")) {
                 gain = sellShares(bag, quantity, price);
-                System.out.println(gain);
+                System.out.println("This transaction has a gain of: "+ gain);
             }
+
 
           //  System.out.println(bag.peek().getQuantity() + " " + bag.peek().getPrice());
 
