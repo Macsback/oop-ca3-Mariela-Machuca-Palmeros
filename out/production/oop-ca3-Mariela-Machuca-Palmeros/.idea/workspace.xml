@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a00123d0-55e6-4695-a3e2-e058c5c9d448" name="Changes" comment="" />
+    <list default="true" id="a00123d0-55e6-4695-a3e2-e058c5c9d448" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Q3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Q8.java" beforeDir="false" afterPath="$PROJECT_DIR$/Q8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop-ca3-Mariela-Machuca-Palmeros/Q8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oop-ca3-Mariela-Machuca-Palmeros/Q8.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,7 +44,9 @@
     "Application.Q2.executor": "Run",
     "Application.Q4.executor": "Run",
     "Application.Q5.executor": "Run",
+    "Application.Q6.executor": "Run",
     "Application.Q8.executor": "Run",
+    "Application.Q8_AICode.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "07-Feb-2024",
@@ -51,6 +59,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -78,6 +91,7 @@
       <workItem from="1706991640207" duration="1411000" />
       <workItem from="1707215383200" duration="9147000" />
       <workItem from="1707297100210" duration="598000" />
+      <workItem from="1707308173926" duration="5534000" />
     </task>
     <servers />
   </component>
