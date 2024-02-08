@@ -22,7 +22,7 @@ public class Q82 {
     }
 
     public static double evaluate(String equation) {
-        //stack for numbers and operators
+
         Stack<Double> numbers = new Stack<>();
         Stack<Character> operators = new Stack<>();
 
@@ -33,34 +33,34 @@ public class Q82 {
             if (ch == ' ') {
                 continue;
             }
-            //handling opening brackets
+
             else if (ch == '(') {
                 operators.push(ch);
             }
-            //handling numbers
+
             else if (Character.isDigit(ch)) {
                 StringBuilder sb = new StringBuilder(); //it reads the whole number, including the decimal part
                 while (i < equation.length() && (Character.isDigit(equation.charAt(i)) || equation.charAt(i) == '.')) {
                     sb.append(equation.charAt(i++));
                 }
-                i--; //adjusts the index so the next character is handled properly
+                i--;
                 numbers.push(Double.parseDouble(sb.toString())); //pushes the number onto the stack
             }
             //handling closing brackets
             else if (ch == ')') {
-                //check for the "("
+
                 while (operators.peek() != '(') {
                     calculate(numbers, operators);
                 }
-                operators.pop(); //removes '(' from the stack
+                operators.pop();
             }
-            //handling the (+,-,*,/) operators
+
             else {
-                //process operators based on their order in math
+                //Prioritizes
                 while (!operators.isEmpty() && priority(operators.peek()) >= priority(ch)) {
                     calculate(numbers, operators);
                 }
-                operators.push(ch); //push the current operator onto the stack
+                operators.push(ch);
             }
         }
         //remaining operators
