@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="a00123d0-55e6-4695-a3e2-e058c5c9d448" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Q7.java" beforeDir="false" afterPath="$PROJECT_DIR$/Q7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop-ca3-Mariela-Machuca-Palmeros/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oop-ca3-Mariela-Machuca-Palmeros/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop-ca3-Mariela-Machuca-Palmeros/Q3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oop-ca3-Mariela-Machuca-Palmeros/Q3.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +45,7 @@
     "Application.Q4.executor": "Run",
     "Application.Q5.executor": "Run",
     "Application.Q6.executor": "Run",
+    "Application.Q7.executor": "Run",
     "Application.Q8.executor": "Run",
     "Application.Q82.executor": "Run",
     "Application.Q8_AICode.executor": "Run",
@@ -93,6 +97,7 @@
       <workItem from="1707347277897" duration="6545000" />
       <workItem from="1707391901399" duration="6353000" />
       <workItem from="1707470011543" duration="1230000" />
+      <workItem from="1707471368996" duration="3007000" />
     </task>
     <servers />
   </component>
