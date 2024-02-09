@@ -7,7 +7,9 @@
     <list default="true" id="a00123d0-55e6-4695-a3e2-e058c5c9d448" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Q3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Q3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q82.java" beforeDir="false" afterPath="$PROJECT_DIR$/Q82.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop-ca3-Mariela-Machuca-Palmeros/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oop-ca3-Mariela-Machuca-Palmeros/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop-ca3-Mariela-Machuca-Palmeros/Q3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oop-ca3-Mariela-Machuca-Palmeros/Q3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop-ca3-Mariela-Machuca-Palmeros/Q82.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oop-ca3-Mariela-Machuca-Palmeros/Q82.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +51,7 @@
     "Application.Q8_AICode.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "08-02-2024",
+    "git-widget-placeholder": "09-02-2024",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -94,6 +96,7 @@
       <workItem from="1707308173926" duration="5534000" />
       <workItem from="1707347277897" duration="6545000" />
       <workItem from="1707391901399" duration="6353000" />
+      <workItem from="1707470011543" duration="644000" />
     </task>
     <servers />
   </component>
@@ -102,5 +105,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Q3.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

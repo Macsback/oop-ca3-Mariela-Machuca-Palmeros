@@ -10,8 +10,8 @@ public class Q3 {
     public static void main(String[] args) throws FileNotFoundException {
         Scanner read = new Scanner(new File("Q1.java"));
         //creates map storing identifiers and their occurrences
-        Map<String, ArrayList<String>> map = new TreeMap<>();
-        String line = " ";
+        Map<String, ArrayList<Integer>> map = new TreeMap<>();
+        int line = 0;
 
         while (read.hasNextLine()) //reading each line from the file
         {
@@ -20,16 +20,22 @@ public class Q3 {
 
             while (lineRead.hasNext()) {
                 String key = lineRead.next();
-                line = read.nextLine();
+                line++;
                 if(!map.containsKey(key))
                 {
-                    map.put(key,new ArrayList<String>());
+                    map.put(key,new ArrayList<Integer>());
+                    map.get(key).add(line);
                 }
-                map.get(key).add(line);
+                else{
+                map.get(key).add(line);}
             }
-            System.out.println(map);
-        }
+           // System.out.println(map);
 
+
+        }
+        for(Map.Entry<String, ArrayList<Integer>> entry : map.entrySet()){
+            System.out.println("Identifier: " + entry.getKey() + "Line No.: " + entry.getValue());
+        }
 
     }
 }

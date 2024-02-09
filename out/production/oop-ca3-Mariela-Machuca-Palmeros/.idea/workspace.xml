@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a00123d0-55e6-4695-a3e2-e058c5c9d448" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Q3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Q3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q82.java" beforeDir="false" afterPath="$PROJECT_DIR$/Q82.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +38,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.Q1.executor": "Run",
     "Application.Q2.executor": "Run",
+    "Application.Q3.executor": "Run",
     "Application.Q4.executor": "Run",
     "Application.Q5.executor": "Run",
     "Application.Q6.executor": "Run",
@@ -48,7 +47,7 @@
     "Application.Q8_AICode.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "08-02-2024",
+    "git-widget-placeholder": "09-02-2024",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -92,7 +91,8 @@
       <workItem from="1707297100210" duration="598000" />
       <workItem from="1707308173926" duration="5534000" />
       <workItem from="1707347277897" duration="6545000" />
-      <workItem from="1707391901399" duration="5560000" />
+      <workItem from="1707391901399" duration="6353000" />
+      <workItem from="1707470011543" duration="344000" />
     </task>
     <servers />
   </component>
