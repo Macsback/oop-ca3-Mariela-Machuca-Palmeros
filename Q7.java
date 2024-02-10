@@ -59,7 +59,7 @@ public class Q7 {
         double gain = 0;
 
         for(Map.Entry<String, Queue<Block>> entry : map.entrySet()) {
-
+            if(entry.getKey().equals(key) ){
             Block stash = entry.getValue().peek();
             int avaShares = stash.getQuantity();
             double boughtPrice = 0 ;
@@ -90,7 +90,7 @@ public class Q7 {
                     stash.setQuantity(avaShares - quantity);
                     quantity = 0;
                 }
-        }
+        }}
         return gain;
 
     }
