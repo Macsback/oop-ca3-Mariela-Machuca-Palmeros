@@ -48,7 +48,7 @@
     "Application.Q8_AICode.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "09-feb-2024",
+    "git-widget-placeholder": "10-feb-2024",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -94,7 +94,8 @@
       <workItem from="1707347277897" duration="6545000" />
       <workItem from="1707391901399" duration="6353000" />
       <workItem from="1707470011543" duration="1230000" />
-      <workItem from="1707471368996" duration="1503000" />
+      <workItem from="1707471368996" duration="4001000" />
+      <workItem from="1707585754517" duration="355000" />
     </task>
     <servers />
   </component>
