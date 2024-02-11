@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a00123d0-55e6-4695-a3e2-e058c5c9d448" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Q7.java" beforeDir="false" afterPath="$PROJECT_DIR$/Q7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DistanceTo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/map.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Q9.java" beforeDir="false" afterPath="$PROJECT_DIR$/Q9.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +52,7 @@
     "Application.Q8_AICode.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "10-feb-2024",
+    "git-widget-placeholder": "11-02-2024",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -95,7 +99,10 @@
       <workItem from="1707391901399" duration="6353000" />
       <workItem from="1707470011543" duration="1230000" />
       <workItem from="1707471368996" duration="4001000" />
-      <workItem from="1707585754517" duration="355000" />
+      <workItem from="1707585754517" duration="1059000" />
+      <workItem from="1707595114104" duration="10682000" />
+      <workItem from="1707607947840" duration="20000" />
+      <workItem from="1707672355472" duration="7266000" />
     </task>
     <servers />
   </component>
@@ -104,5 +111,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Q2.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
